@@ -1,12 +1,3 @@
-# POC app for Charlie
-
-## App Demo!
-![](/gif/dse-recording.gif)
-
-## Important things to note 
-
-### 
-
 # DSE-App
 
 Simple node app to display auth0 clients and associated rules
