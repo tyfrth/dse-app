@@ -1,4 +1,5 @@
 # dse-app
-small node app for dse technical exercise
+
+App Demo!
 
 ![](/gif/dse-recording.gif)
