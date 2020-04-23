@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DSE Sample App</title>
+</head>
+<body style="font-family: Montserrat" >
+  <h1>My Applications and Rules</h1>
+  <% if (applications) {
+  %><ul>
+    <% applications.forEach((application) => {
+      %>
+        <div style="display:inline-block; padding:6px 6px 6px 6px; color: #555555; background-color: #87CEFA; border: #dddddd 2px solid; margin: 1em; width:; border-radius: 1em;">
+        <h2 style="color: black" ><%= application.name %></h2>
+          <ul style="color: black">
+            <li><%= `client_id: ${application.client_id}` %></li>
+            <li><%= `rules: ${application.rules.join(', ')}` %></li>
+          </ul>
+        </div>
+      <%
+    }) %>
+  </ul><%
+} %>
+  <!-- <a href="/expenses">Expenses</a> -->
+  <% if (user) { %>
+    <div>
+      <label><%= user.name %></label>
+      <button onclick="window.location = '/logout'">
+        Log out
+      </button>
+    </div>
+  <%}%>
+</body>
+</html>
