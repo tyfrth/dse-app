@@ -22,6 +22,8 @@ Once you've successfully cloned the repo, you'll need to install all the depende
 
 You can do that by running `npm install` in your `app/` directory:
 
+### Configuration
+
 Next, you'll need to create a`.env` file - There's an existing `.env-sample` available for you to copy:
 
 ```
@@ -30,6 +32,10 @@ cp .env-sample .env
 The `ISSUER_BASE_URL` and `CLIENT_ID` can be found in the Settings of the new app you've created in your Auth0 dashboard - **Domain** and **Client ID**, respectively. The `APP_SESSION_SECRET` just needs to be a long random string. For testing purposes, you can obtain an `API_KEY` from the **Management API Test** tab:
 
 ![](/images/screenshot.PNG)
+
+Be sure to set the **rulesUrl** and **clientsUrl** in **server.js** to reflect your Auth0 tenant.
+
+![](/images/urls.PNG)
 
 ## Deployment
 
