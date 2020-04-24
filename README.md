@@ -24,6 +24,8 @@ You can do that by running `npm install` in your `app/` directory:
 
 ### Configuration
 
+In your application Settings in the Auth0 dashboard, add `http://localhost:3000/callback` to **Allowed Callback Urls** as well as `http://localhost:3000` to **Allowed Logout Urls**
+
 Next, you'll need to create a`.env` file - There's an existing `.env-sample` available for you to copy:
 
 ```
@@ -46,3 +48,5 @@ Once you've successfully cloned the repository, installed all the necessary depe
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 * [EJS](https://ejs.co/)
+
+**If you run into any issues with configuring your app, the following lab may be of use: https://auth0.com/docs/identity-labs/01-web-sign-in**
