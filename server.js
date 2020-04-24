@@ -24,8 +24,8 @@ app.get('/', (req, res) => {
 });
 
 //urls to get rules and clients
-var rulesUrl = "https://dev-pxhmaog0.auth0.com/api/v2/rules"
-var clientsUrl = "https://dev-pxhmaog0.auth0.com/api/v2/clients"
+var rulesUrl = "https://{your_tenant}.auth0.com/api/v2/rules"
+var clientsUrl = "https://{your_tenant}.auth0.com/api/v2/clients"
 
 //define array where we'll store application objects + client_id/rules
 apps_array = new Array;
