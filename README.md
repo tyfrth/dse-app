@@ -26,7 +26,7 @@ You can do that by running `npm install` in your `app/` directory:
 
 In your application Settings in the Auth0 dashboard, add `http://localhost:3000/callback` to **Allowed Callback Urls** as well as `http://localhost:3000` to **Allowed Logout Urls**
 
-Next, you'll need to create a`.env` file - There's an existing `.env-sample` available for you to copy:
+Next, you'll need to create a`.env` file in your `app` directory - There's an existing `.env-sample` available for you to copy:
 
 ```
 cp .env-sample .env
