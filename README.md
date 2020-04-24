@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 Node.js 
 ```
-Install for your platform [here](https://nodejs.org/en/download/). The package manager `npm` is included with the installation of Node.js.
+Install Node for your platform [here](https://nodejs.org/en/download/). The package manager `npm` is included with the installation of Node.js.
 
 ### Installing
 
