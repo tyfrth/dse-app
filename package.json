@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "dotenv": "^6.2.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
